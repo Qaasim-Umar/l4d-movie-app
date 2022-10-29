@@ -1,0 +1,39 @@
+@import "flex";
+
+aside {
+  backdrop-filter: blur(100px);
+  color: #ffffff;
+  padding: 1.2rem;
+  max-width: 15rem;
+  border-radius: 1rem 0 0 1rem;
+  margin: 5rem -5rem 5rem 4rem;
+
+  .logo img {
+    margin: 1rem;
+  }
+  input[type="search"] {
+    height: 2rem;
+    width: 100%;
+    border: none;
+    border-radius: 0.5rem;
+  }
+}
+
+.top-nav {
+  margin: 2rem 0 2rem 0;
+}
+
+.flex {
+  @include flexed;
+}
+.list-header {
+  text-transform: uppercase;
+  margin: 1rem;
+}
+.logout {
+  margin-top: 70%;
+  margin-left: 1rem;
+}
+p:hover {
+  text-shadow: 0 0 05px #ffffff;
+}
