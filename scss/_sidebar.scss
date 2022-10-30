@@ -1,4 +1,5 @@
 @import "flex";
+$orange: #f33f3f;
 
 aside {
   backdrop-filter: blur(100px);
@@ -37,3 +38,12 @@ aside {
 p:hover {
   text-shadow: 0 0 05px #ffffff;
 }
+
+.dark-mode aside {
+  background-color: rgb(10, 10, 10);
+}
+
+.dark-mode .movieDetails{
+  background-color: rgb(10, 10, 10);
+}
+

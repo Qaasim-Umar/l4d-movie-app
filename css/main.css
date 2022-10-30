@@ -28,7 +28,7 @@ aside input[type=search] {
   height: 3rem;
 }
 .flex:hover {
-  background-color: rgba(5, 5, 5, 0.5);
+  background-color: #f33f3f;
   border-radius: 0.5rem;
 }
 .flex .icon {
@@ -47,6 +47,14 @@ aside input[type=search] {
 
 p:hover {
   text-shadow: 0 0 5px #ffffff;
+}
+
+.dark-mode aside {
+  background-color: rgb(10, 10, 10);
+}
+
+.dark-mode .movieDetails {
+  background-color: rgb(10, 10, 10);
 }
 
 body {

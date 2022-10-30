@@ -32,5 +32,10 @@ const caller = async () => {
 };
 caller();
 
+function darkMode(){
+  var dm =document.body;
+  dm.classList.toggle('dark-mode');
+}
+
 
 
