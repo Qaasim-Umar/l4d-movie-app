@@ -254,17 +254,18 @@ button:hover, .second-button:hover {
   .container {
     grid-template-columns: repeat(1, 1fr);
     text-align: center;
-    margin: 4rem;
+    margin: 0.5rem;
   }
   .movie-list {
     border-radius: 1rem;
+    margin: 1.2rem;
   }
   .wh-container {
     flex-direction: column;
     gap: 2rem;
   }
   .movieDetails {
-    margin: 3rem 2rem;
+    margin: 3rem 1.2rem;
   }
   aside {
     display: none;
