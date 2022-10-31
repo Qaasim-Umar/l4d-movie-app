@@ -22,25 +22,24 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
-.dark i{
+.dark i {
   position: absolute;
   top: 30px;
-color: $orange;
+  color: $orange;
   right: 40px;
-  font-size:2.5rem;
+  font-size: 2.5rem;
 }
 
 .movie-list {
   background-color: #1e1e1e;
   margin: 5rem;
   display: flex;
-  border-radius: 0 1rem 1rem 0;
+  border-radius: 0 0.7rem 0.7rem 0;
 }
 main {
   display: flex;
   gap: 0rem;
 }
-
 
 .container::-webkit-scrollbar {
   display: none;
@@ -67,6 +66,14 @@ main {
     border-radius: 10px;
   }
 
+  .movie-pic img:hover {
+    width: 225px;
+    height: 320px;
+    opacity: 0.6;
+    transform: 2s ease;
+    border: 1px solid $orange;
+  }
+
   .movie-pic a {
     text-decoration: none;
     color: #ffffff;
@@ -74,7 +81,7 @@ main {
   }
 
   .details a:hover {
-    border-bottom: 3px solid $orange;
+    border-bottom: 2px solid $orange;
     width: 100%;
   }
   .hd-text {
@@ -96,27 +103,15 @@ main {
 
 // movie details screen
 
-
-
-
-.arrow a:hover {
+.arrow i:hover {
   transform: rotate(360deg);
 }
-.arrow a {
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 2rem;
+.arrow i {
+  font-size: 3rem;
   color: $orange;
-  background-color: #ffffff;
-  border: 2px $orange solid;
-  padding: 0.2rem;
   position: absolute;
   left: 0.2rem;
   top: 1rem;
-  line-height: 1.9rem;
-  width: 3rem;
-  height: 3rem;
-  border-radius: 50%;
   transition: all 500ms ease;
 }
 .movieDetails {
@@ -137,8 +132,7 @@ main {
   height: 451px;
   border-radius: 10px;
 }
- // group container
-
+// group container
 
 .heading {
   font-size: 35px;
@@ -215,16 +209,15 @@ button {
   .container {
     grid-template-columns: repeat(1, 1fr);
     text-align: center;
-    margin: .5rem;
+    margin: 0.5rem;
   }
   .movie-list {
     border-radius: 1rem;
-    margin:1.2rem;
+    margin: 1.2rem;
   }
   .wh-container {
     flex-direction: column;
     gap: 2rem;
-  
   }
   .movieDetails {
     margin: 3rem 1.2rem;
@@ -232,5 +225,4 @@ button {
   aside {
     display: none;
   }
-
 }

@@ -5,7 +5,7 @@ aside {
   color: #ffffff;
   padding: 1.2rem;
   max-width: 15rem;
-  border-radius: 1rem 0 0 1rem;
+  border-radius: 0.7rem 0 0 0.7rem;
   margin: 5rem -5rem 5rem 4rem;
 }
 aside .logo img {
@@ -86,7 +86,7 @@ body {
   background-color: #1e1e1e;
   margin: 5rem;
   display: flex;
-  border-radius: 0 1rem 1rem 0;
+  border-radius: 0 0.7rem 0.7rem 0;
 }
 
 main {
@@ -118,13 +118,20 @@ main {
   height: 300px;
   border-radius: 10px;
 }
+.container .movie-pic img:hover {
+  width: 225px;
+  height: 320px;
+  opacity: 0.6;
+  transform: 2s ease;
+  border: 1px solid #f33f3f;
+}
 .container .movie-pic a {
   text-decoration: none;
   color: #ffffff;
   transition: 1s ease;
 }
 .container .details a:hover {
-  border-bottom: 3px solid #f33f3f;
+  border-bottom: 2px solid #f33f3f;
   width: 100%;
 }
 .container .hd-text {
@@ -142,25 +149,16 @@ main {
   margin-top: 0.2rem;
 }
 
-.arrow a:hover {
+.arrow i:hover {
   transform: rotate(360deg);
 }
 
-.arrow a {
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 2rem;
+.arrow i {
+  font-size: 3rem;
   color: #f33f3f;
-  background-color: #ffffff;
-  border: 2px #f33f3f solid;
-  padding: 0.2rem;
   position: absolute;
   left: 0.2rem;
   top: 1rem;
-  line-height: 1.9rem;
-  width: 3rem;
-  height: 3rem;
-  border-radius: 50%;
   transition: all 500ms ease;
 }
 
